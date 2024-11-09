@@ -113,4 +113,8 @@ bool sc_comparer(const sequence &a, const sequence &b){
         return false;
 }
 
+sequence::~sequence(){
+    delete[] _couleurs;
+}
+
 
